@@ -1,3 +1,44 @@
 body{
     margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    text-align: center;
+    color: #363635;
+    text-shadow: black 2px 1px 1px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    background-image:  linear-gradient(30deg, #8FBB99 12%, transparent 12.5%, transparent 87%, #8FBB99 87.5%, #8FBB99), linear-gradient(150deg, #8FBB99 12%, transparent 12.5%, transparent 87%, #8FBB99 87.5%, #8FBB99), linear-gradient(30deg, #8FBB99 12%, transparent 12.5%, transparent 87%, #8FBB99 87.5%, #8FBB99), linear-gradient(150deg, #8FBB99 12%, transparent 12.5%, transparent 87%, #8FBB99 87.5%, #8FBB99), linear-gradient(60deg, #8FBB9977 25%, transparent 25.5%, transparent 75%, #8FBB9977 75%, #8FBB9977), linear-gradient(60deg, #8FBB9977 25%, transparent 25.5%, transparent 75%, #8FBB9977 75%, #8FBB9977);
+    background-size: 74px 130px;
+    background-position: 0 0, 0 0, 37px 65px, 37px 65px, 0 0, 37px 65px;
+}
+main{
+    margin: 50px 100px;
+    border-radius: 15px;
+    background: #81E979;
+    color: #363635;
+}
+h1{
+    font-size: 70px ;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+#message-el{
+    font-style: italic;
+}
+button{
+   background-color: #B0FE76;
+   color: #363635;
+   width: 150px;
+   height: 60px;
+   border: none;
+   border-radius: 15px;
+   font-size: 20px;
+   margin: 5px;
+}
+button:hover{
+    background: #363635;
+    color: #81E979;
 }
